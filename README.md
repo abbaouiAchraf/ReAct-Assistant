@@ -15,7 +15,7 @@ To get started with this project, follow these steps:
 
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/abbaouiAchraf/ai-agent.git
+   git clone https://github.com/abbaouiAchraf/ReAct-Assistant.git
    cd ai-agent
    ```
 
