@@ -6,7 +6,7 @@ from utils.engine_functions.pd_query_engine import population_query_engine
 from utils.engine_functions.cmd_engine import cmd_engine
 from utils.prompts import context
 
-from llama_index.legacy.llms import OpenAI
+from llama_index.legacy.llms import OpenAI, LLM
 from llama_index.legacy.agent import ReActAgent
 """
 Top-level agent orchestrator that can create tasks, run each step in a task,
@@ -17,8 +17,8 @@ warnings.filterwarnings("ignore")
 
 
 load_dotenv()
-query_engine = population_query_engine()
 
+query_engine = population_query_engine()
 
 tools = [
     log_engine,

@@ -1,1 +1,3 @@
-Error: Failed to create the text file for highest population.
+Folder "achraf" and text file "achraf.txt" created successfully.
+Please open File Explorer and navigate to the C:\Users\%username%\Documents directory.
+File named DRAGON created in the Documents directory.

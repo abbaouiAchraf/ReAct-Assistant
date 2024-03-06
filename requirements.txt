@@ -2,3 +2,5 @@ pandas
 llama-index
 python-env
 openai
+mistralai
+ctransformers>=0.2.27
